@@ -71,9 +71,10 @@ void SigPreset(void){
 int main()
 {
     int serv_socket;
-    if(int err=setpriority(PRIO_PROCESS,0,-20)<0){
-        printf("Error %i to setpriority: %s\n", errno, strerror(errno));
-    }
+//    if(int err=setpriority(PRIO_PROCESS,0,-20)<0){
+//        printf("Error %i to setpriority: %s\n", errno, strerror(errno));
+//    }
+    cout<<"BLE to UART server started"<<endl;
     SigPreset();
     SerialInit();
     unlink(UART_SOCKET);// unbind if previously not properly terminated

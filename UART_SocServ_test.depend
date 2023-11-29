@@ -154,3 +154,56 @@
 	<sys/time.h>
 	<sys/resource.h>
 
+1670344183 source:/home/pi/Work/CodeBloks_projects/UART_SocServ/crc8.c
+	<stdint.h>
+
+1678406451 source:/home/pi/Work/CodeBloks_projects/UART_SocServ/dispatch.cpp
+	"dispatch.h"
+	<iostream>
+	<unistd.h>
+	<stdio.h>
+
+1670669387 /home/pi/Work/CodeBloks_projects/UART_SocServ/dispatch.h
+	<sys/select.h>
+	<stdint.h>
+	<unistd.h>
+	<stdio.h>
+
+1691657119 source:/home/pi/Work/CodeBloks_projects/UART_SocServ/main.cpp
+	<iostream>
+	<sys/socket.h>
+	<unistd.h>
+	<sys/un.h>
+	<signal.h>
+	"serial.h"
+	"dispatch.h"
+	<sys/time.h>
+	<sys/resource.h>
+
+1691656758 /home/pi/Work/CodeBloks_projects/UART_SocServ/serial.h
+	"mSLIP.h"
+
+1680740703 /home/pi/Work/CodeBloks_projects/UART_SocServ/mSLIP.h
+	<stdio.h>
+	"crc8.h"
+
+1670344028 /home/pi/Work/CodeBloks_projects/UART_SocServ/crc8.h
+	<stdint.h>
+
+1670517124 source:/home/pi/Work/CodeBloks_projects/UART_SocServ/mSLIP.cpp
+	"mSLIP.h"
+
+1678406250 source:/home/pi/Work/CodeBloks_projects/UART_SocServ/serial.cpp
+	<stdio.h>
+	<string.h>
+	<fcntl.h>
+	<errno.h>
+	<termios.h>
+	<unistd.h>
+	<signal.h>
+	"serial.h"
+	<time.h>
+	"mSLIP.h"
+	"dispatch.h"
+	<iostream>
+
